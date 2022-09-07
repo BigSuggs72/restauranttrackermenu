@@ -26,7 +26,7 @@ let menuSchema = new mongoose.Schema({
       required: true
     },
     pwd: {
-      type: Boolean,
+      type: String,
       required: true
     },
     entryDate: {
